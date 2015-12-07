@@ -12,6 +12,7 @@
 		D22E1CDC1C15068900DD6644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22E1CDA1C15068900DD6644 /* Main.storyboard */; };
 		D22E1CDE1C15068900DD6644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22E1CDD1C15068900DD6644 /* Assets.xcassets */; };
 		D22E1CE11C15068900DD6644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22E1CDF1C15068900DD6644 /* LaunchScreen.storyboard */; };
+		D22E1CE91C15132F00DD6644 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22E1CE81C15132F00DD6644 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D22E1CDD1C15068900DD6644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D22E1CE01C15068900DD6644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D22E1CE21C15068900DD6644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22E1CE81C15132F00DD6644 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D22E1CD61C15068900DD6644 /* AppDelegate.swift */,
 				D22E1CD81C15068900DD6644 /* ViewController.swift */,
+				D22E1CE81C15132F00DD6644 /* SettingsViewController.swift */,
 				D22E1CDA1C15068900DD6644 /* Main.storyboard */,
 				D22E1CDD1C15068900DD6644 /* Assets.xcassets */,
 				D22E1CDF1C15068900DD6644 /* LaunchScreen.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					D22E1CD21C15068900DD6644 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 65PP667T6T;
 					};
 				};
 			};
@@ -137,6 +141,7 @@
 			files = (
 				D22E1CD91C15068900DD6644 /* ViewController.swift in Sources */,
 				D22E1CD71C15068900DD6644 /* AppDelegate.swift in Sources */,
+				D22E1CE91C15132F00DD6644 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +252,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scottkolo.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -258,10 +266,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scottkolo.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
