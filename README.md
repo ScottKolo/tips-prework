@@ -1,6 +1,6 @@
 # Pre-work - Tips
 
-Tips is a tip calculator application for iOS. It was created as part of the iOS Pre-work for the Code Path Course at Texas &amp;M.
+Tips is a tip calculator application for iOS. It was created as part of the iOS Pre-work for the Code Path Course at Texas A&amp;M.
 
 Submitted by: Scott Kolodziej
 
