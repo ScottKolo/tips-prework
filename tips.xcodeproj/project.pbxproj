@@ -13,6 +13,8 @@
 		D22E1CDE1C15068900DD6644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22E1CDD1C15068900DD6644 /* Assets.xcassets */; };
 		D22E1CE11C15068900DD6644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22E1CDF1C15068900DD6644 /* LaunchScreen.storyboard */; };
 		D22E1CE91C15132F00DD6644 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22E1CE81C15132F00DD6644 /* SettingsViewController.swift */; };
+		D2B13B3D1C22247B00088C82 /* fabric_of_squares_gray_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B13B3C1C22247B00088C82 /* fabric_of_squares_gray_@2X.png */; };
+		D2B13B3F1C2FA24100088C82 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2B13B3E1C2FA24100088C82 /* fontawesome-webfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D22E1CE01C15068900DD6644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D22E1CE21C15068900DD6644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D22E1CE81C15132F00DD6644 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "/Users/scott/iOS Development/tips/tips/SettingsViewController.swift"; sourceTree = "<absolute>"; };
+		D2B13B3C1C22247B00088C82 /* fabric_of_squares_gray_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fabric_of_squares_gray_@2X.png"; sourceTree = "<group>"; };
+		D2B13B3E1C2FA24100088C82 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		D22E1CD51C15068900DD6644 /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				D2B13B3E1C2FA24100088C82 /* fontawesome-webfont.ttf */,
+				D2B13B3C1C22247B00088C82 /* fabric_of_squares_gray_@2X.png */,
 				D22E1CD61C15068900DD6644 /* AppDelegate.swift */,
 				D22E1CD81C15068900DD6644 /* ViewController.swift */,
 				D22E1CE81C15132F00DD6644 /* SettingsViewController.swift */,
@@ -128,6 +134,8 @@
 			files = (
 				D22E1CE11C15068900DD6644 /* LaunchScreen.storyboard in Resources */,
 				D22E1CDE1C15068900DD6644 /* Assets.xcassets in Resources */,
+				D2B13B3F1C2FA24100088C82 /* fontawesome-webfont.ttf in Resources */,
+				D2B13B3D1C22247B00088C82 /* fabric_of_squares_gray_@2X.png in Resources */,
 				D22E1CDC1C15068900DD6644 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +267,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.scottkolo.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -273,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.scottkolo.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
