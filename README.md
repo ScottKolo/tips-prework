@@ -4,7 +4,7 @@ Tips is a tip calculator application for iOS. It was created as part of the iOS 
 
 Submitted by: Scott Kolodziej
 
-Time spent: 3 hours spent in total
+Time spent: 3 hours spent for required functionality, ~4 hours for additional functionality
 
 ## User Stories
 
@@ -21,13 +21,15 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [X] Tip percentage slider instead of segemented control
+- [X] Good/Neutral/Bad tip settings
+- [X] Textured background and Font Awesome icons
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/S36xYOG.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/74mQvkJ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 

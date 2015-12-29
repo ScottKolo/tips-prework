@@ -74,6 +74,34 @@ class ViewController: UIViewController {
         
         // Get user defaults for good/neutral/bad tip values
         let defaults = NSUserDefaults.standardUserDefaults()
+        
+        // Check if tips are stored in user defaults - if not, use 10/20/25%
+        if defaults.objectForKey("defaultGoodTip") != nil {
+            goodTip    = defaults.integerForKey("defaultGoodTip")
+        }
+        else {
+            goodTip = 25
+            defaults.setInteger(25, forKey: "defaultGoodTip")
+        }
+        
+        if defaults.objectForKey("defaultNeutralTip") != nil {
+            neutralTip    = defaults.integerForKey("defaultNeutralTip")
+        }
+        else {
+            neutralTip = 20
+            defaults.setInteger(20, forKey: "defaultNeutralTip")
+        }
+        
+        if defaults.objectForKey("defaultBadTip") != nil {
+            badTip    = defaults.integerForKey("defaultBadTip")
+        }
+        else {
+            badTip = 10
+            defaults.setInteger(10, forKey: "defaultBadTip")
+        }
+
+        
+        
         goodTip = defaults.integerForKey("defaultGoodTip")
         neutralTip = defaults.integerForKey("defaultNeutralTip")
         badTip = defaults.integerForKey("defaultBadTip")
